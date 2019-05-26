@@ -1,0 +1,19 @@
+.Categories {
+  display: flex;
+  justify-content: center;
+}
+.button button {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  color: black;
+  border-color: transparent;
+}
+
+.button button:focus,
+.button button:hover {
+  background-color: transparent !important;
+  color: black !important;
+  border-color: transparent !important;
+  box-shadow: unset !important;
+}

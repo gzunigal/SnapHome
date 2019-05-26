@@ -1,0 +1,37 @@
+.card {
+  height: 250px;
+  width: 250px;
+}
+.card_top {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.foto {
+  height: 200px;
+  width: 200px;
+}
+
+.foto img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.button {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+.price {
+  font-size: 20px;
+}
+.pricename {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 10px;
+}
+.normal {
+  border-top-left-radius: 0 !important;
+}
+.desde {
+  border-top-right-radius: 0 !important;
+}
