@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-
 import { Link } from "react-router-dom";
+
+import Navbar from "components/Navbar";
 
 class Home extends Component {
   render() {
     return (
-      <div>
-        <h1>Hola Mundo!</h1>
+      <div className="container-fuild">
+        <Navbar />
         <Link to="/catalogo">Ir a Catálogo</Link>
       </div>
     );

@@ -34,13 +34,11 @@ export default class Categories extends React.Component {
         >
           <DropdownToggle caret>Destacados</DropdownToggle>
           <DropdownMenu>
-            <DropdownItem header>Header</DropdownItem>
-            <DropdownItem>Some Action</DropdownItem>
-            <DropdownItem disabled>Action (disabled)</DropdownItem>
-            <DropdownItem divider />
-            <DropdownItem>Foo Action</DropdownItem>
-            <DropdownItem>Bar Action</DropdownItem>
-            <DropdownItem>Quo Action</DropdownItem>
+            <DropdownItem>Electrodomésticos</DropdownItem>
+            <DropdownItem>Seguridad</DropdownItem>
+            <DropdownItem>Iluminación</DropdownItem>
+            <DropdownItem>Asistentes</DropdownItem>
+            <DropdownItem>Televisores</DropdownItem>
           </DropdownMenu>
         </Dropdown>
       </div>
