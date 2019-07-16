@@ -32,7 +32,7 @@ export default class Categories extends React.Component {
           isOpen={this.state.dropdownOpen}
           toggle={this.toggle}
         >
-          <DropdownToggle caret>Destacados</DropdownToggle>
+          <DropdownToggle caret className={styles.blanco}>Destacados</DropdownToggle>
           <DropdownMenu>
             <DropdownItem>Electrodomésticos</DropdownItem>
             <DropdownItem>Seguridad</DropdownItem>

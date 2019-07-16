@@ -3,7 +3,7 @@
   justify-content: center;
 }
 .button button {
-  font-size: 36px;
+  font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: transparent;
   color: black;
@@ -16,4 +16,8 @@
   color: black !important;
   border-color: transparent !important;
   box-shadow: unset !important;
+}
+
+.blanco {
+  color: white !important;
 }

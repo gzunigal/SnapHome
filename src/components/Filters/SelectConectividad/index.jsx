@@ -2,11 +2,14 @@ import React from "react";
 import Select from "react-select";
 
 const marcas = [
-  { value: "Xiaomi", label: "Xiaomi" },
-  { value: "Mijia", label: "Mijia" }
+  { value: "Bluetooth", label: "Bluetooth" },
+  { value: "Wifi 2.5", label: "Wifi 2.5" },
+  { value: "Wifi 5.0", label: "Wifi 5.0" },
+  { value: "Zigbee", label: "Zigbee" },
+  { value: "Z-Wave", label: "Z-Wave" }
 ];
 
-class SelectMarca extends React.Component {
+class SelectConectividad extends React.Component {
   state = {
     selectedOption: null
   };
@@ -18,7 +21,7 @@ class SelectMarca extends React.Component {
 
     return (
       <div>
-        Marca
+        Conectividad
         <Select
           value={selectedOption}
           onChange={this.handleChange}
@@ -29,4 +32,4 @@ class SelectMarca extends React.Component {
   }
 }
 
-export default SelectMarca;
+export default SelectConectividad;

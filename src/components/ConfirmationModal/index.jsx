@@ -4,6 +4,7 @@ import PriceGraph from "components/PriceGraph";
 
 class ConfirmationModal extends React.Component {
   render() {
+    const { product } = this.props;
     return (
       <div>
         <Modal
@@ -18,19 +19,15 @@ class ConfirmationModal extends React.Component {
           </ModalHeader>
           <ModalBody>
             <div className="row">
-              <div className="col-5">
-                <PriceGraph price={this.props.price} />
+              <div className="col-12">
+                <div className="row">
+                  <h3 className="col-12 text-center">
+                    {product && product.nombre}
+                  </h3>
+                </div>
               </div>
-              <div className="col-7">
-                <div className="row">
-                  <h3>Nombre Producto</h3>
-                </div>
-                <div className="row">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                  ratione vitae autem quia, ipsum rem accusantium sint facilis
-                  ea aliquam est dignissimos, voluptatum cum, officia quibusdam.
-                  Tenetur minus assumenda aspernatur?
-                </div>
+              <div className="col-12">
+                <PriceGraph price={product && product.precio} />
               </div>
             </div>
           </ModalBody>

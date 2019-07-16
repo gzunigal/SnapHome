@@ -1,0 +1,29 @@
+.navBar {
+  background-color: #004b88 !important;
+}
+
+.name {
+  position: absolute;
+  margin-left: 55px;
+  color: white;
+  font-weight: 900;
+  font-size: 19px;
+}
+
+.nav,
+.navBar a {
+  color: white !important;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.iconUser {
+  font-size: 25px;
+}
+
+.dropdown::after {
+  border-top: 0 !important;
+}

@@ -1,23 +1,64 @@
 import React from "react";
-import InputRange from "react-input-range";
+import Typography from "@material-ui/core/Typography";
+import Slider from "@material-ui/lab/Slider";
+import Tooltip from "@material-ui/core/Tooltip";
+
 import { formatPrice } from "utils/price";
 
-import "react-input-range/lib/css/index.css";
+import styles from "./index.module.css";
 
-const Price = props => {
+function valuetext(value) {
+  return `${formatPrice(value)}`;
+}
+
+function ValueLabelComponent(props) {
+  const { children, open, value } = props;
+
+  const popperRef = React.useRef(null);
+  React.useEffect(() => {
+    if (popperRef.current) {
+      popperRef.current.update();
+    }
+  });
+
   return (
-    <div className="row">
-      <div className="precio col-9 offset-1">
-        <InputRange
-          maxValue={props.maxValue}
-          minValue={props.minValue}
-          formatLabel={value => formatPrice(value)}
-          value={props.priceRange}
-          onChange={value => props.onChange(value)}
-        />
-      </div>
+    <Tooltip
+      PopperProps={{
+        popperRef
+      }}
+      open={open}
+      enterTouchDelay={0}
+      placement="top"
+      title={valuetext(value)}
+    >
+      {children}
+    </Tooltip>
+  );
+}
+
+export default function Price({ min = 0, max = 100 }) {
+  const [value, setValue] = React.useState([min, max]);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  return (
+    <div className={styles.priceSlider}>
+      <Typography id="range-slider" gutterBottom>
+        Precio
+      </Typography>
+      <Slider
+        value={value}
+        onChange={handleChange}
+        valueLabelDisplay="auto"
+        aria-labelledby="range-slider"
+        getAriaValueText={valuetext}
+        valueLabelFormat={valuetext}
+        ValueLabelComponent={ValueLabelComponent}
+        min={min}
+        max={max}
+      />
     </div>
   );
-};
-
-export default Price;
+}

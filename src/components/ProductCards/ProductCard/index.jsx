@@ -5,16 +5,23 @@ import { calculatePriceAt, formatPrice } from "utils/price";
 import styles from "./index.module.css";
 import image from "assets/lavadora.jpg";
 
-const ProductCard = ({ price, onClickNew }) => {
-  const priceNew = calculatePriceAt({ price, ROI: 18 });
-  const priceFrom = calculatePriceAt({ price, ROI: 18, atMonth: 18 });
+const ProductCard = ({ product, onClickNew }) => {
+  const priceNew = calculatePriceAt({
+    price: product.precio,
+    ROI: product.payback
+  });
+  const priceFrom = calculatePriceAt({
+    price: product.precio,
+    ROI: product.payback,
+    atMonth: 18
+  });
 
   return (
     <div className={styles.card}>
       <Card className={styles.card_top}>
         <Row>
           <Col className={styles.foto}>
-            <img src={image} alt="Referencia" />
+            <img src={product.img} alt="Referencia" />
           </Col>
         </Row>
       </Card>
@@ -24,7 +31,7 @@ const ProductCard = ({ price, onClickNew }) => {
             className={`col col-md-6 ${styles.button} ${styles.normal}`}
             color="success"
             onClick={() => {
-              onClickNew(price);
+              onClickNew(product);
             }}
           >
             <div className={styles.pricename}>NUEVO</div>
@@ -33,6 +40,7 @@ const ProductCard = ({ price, onClickNew }) => {
           <Button
             className={`col col-md-6 ${styles.button} ${styles.desde}`}
             color="info"
+            href={`/producto/${product.id}`}
           >
             <div className={styles.pricename}>DESDE</div>
             <div className={styles.price}>{formatPrice(priceFrom)}</div>

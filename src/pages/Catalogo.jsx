@@ -4,19 +4,20 @@ import Categories from "components/Categories";
 import ProductCards from "components/ProductCards";
 import Filters from "components/Filters";
 
-const Catalogo = () => (
-  <div className="container-fuild">
-    <Navbar />
-    <Categories />
-    <div className="row">
-      <div className="col-md-9">
-        <ProductCards />
-      </div>
-      <div className="col-md-2">
+import productsData from "data.json";
+
+const Catalogo = () => {
+  return (
+    <div className="container-fluid">
+      <Navbar />
+      <div className="row">
         <Filters />
+        <div className="col">
+          <ProductCards products={productsData} />
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Catalogo;

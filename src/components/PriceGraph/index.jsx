@@ -69,6 +69,32 @@ class CustomizedMonthTick extends PureComponent {
 export default class PriceGraph extends PureComponent {
   static jsfiddleUrl = "https://jsfiddle.net/alidingling/5br7g9d6/";
 
+  getMonthAt(monthsInAdvance) {
+    const months = [
+      "Enero",
+      "Febrero",
+      "Marzo",
+      "Abril",
+      "Mayo",
+      "Junio",
+      "Julio",
+      "Agosto",
+      "Septiembre",
+      "Octubre",
+      "Noviembre",
+      "Diciembre"
+    ];
+    const month = (new Date().getMonth() + monthsInAdvance) % 12;
+    return {
+      name: months[month],
+      Valor: calculatePriceAt({
+        price: this.props.price,
+        ROI: 18,
+        atMonth: 0
+      })
+    };
+  }
+
   data = [
     {
       name: "Junio",

@@ -1,13 +1,35 @@
 .navBar {
   background-color: #17a2b8 !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 100px;
+  min-height: 40px;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 5px;
 }
 
 .name {
-  position: absolute;
-  margin-left: 55px;
   color: white;
   font-weight: 900;
   font-size: 19px;
+  margin: auto !important;
+}
+
+.categories {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.profile {
 }
 
 .nav,
@@ -15,9 +37,9 @@
   color: white !important;
 }
 
-.logo {
-  height: 40px;
-  margin-right: 15px;
+.nav {
+  flex-grow: 1;
+  align-items: center;
 }
 
 .iconUser {
@@ -26,4 +48,10 @@
 
 .dropdown::after {
   border-top: 0 !important;
+}
+
+.miHome {
+  color: white !important;
+  font-weight: bold;
+  font-size: larger;
 }

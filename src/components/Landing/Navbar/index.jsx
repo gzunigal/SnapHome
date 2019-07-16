@@ -9,27 +9,25 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
-  Button
+  DropdownItem
 } from "reactstrap";
 
 import styles from "./index.module.css";
 import logo from "assets/snaphomeLogo.png";
-import Categories from "components/Categories";
 
 const TopNavbar = () => (
-  <Navbar className={`row ${styles.navBar}`} expand="md">
-    <a href="/" className={styles.logoContainer}>
+  <Navbar className={styles.navBar} expand="md">
+    <a href="/">
       <img className={styles.logo} src={logo} alt="Logo" />
       <p className={styles.name}>SnapHome</p>
     </a>
-    <Nav className={`${styles.categories} ml-auto`}>
-      <Categories />
-    </Nav>
-    <Nav>
-      <Button href="/misnaphome" color="info">
-        <span className={styles.miHome}>Mi SnapHome</span>
-      </Button>
+    <Nav className={`${styles.nav} ml-auto`}>
+      <NavItem>
+        <NavLink href="/catalogo/">Catálogo</NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink href="/catalogo">Destacados</NavLink>
+      </NavItem>
       <UncontrolledDropdown nav inNavbar>
         <DropdownToggle className={styles.dropdown} nav caret>
           <FontAwesomeIcon className={styles.iconUser} icon={faUserCircle} />

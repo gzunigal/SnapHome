@@ -1,0 +1,300 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mi Home Security Camera 360° 1080P",
+    "img": "https://i01.appmifile.com/webfile/globalimg/Mandy/1080P-800.jpg?width=500&height=500",
+    "precio": 36990,
+    "descripcion": "asdad",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Peso",
+        "value": "239g"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Mi LED Smart Bulb",
+    "img": "https://i01.appmifile.com/webfile/globalimg/Mandy/mibulb.jpg?width=500&height=500",
+    "precio": 23000,
+    "descripcion": "La bombilla Mi LED Smart Bulb es una bombilla LED con conectividad Wi-Fi de 2,4 GHz, de modo que podremos conectarla a cualquier casquillo de E27 dentro del rango de acción de nuestro router, sin ser necesario emplear un puente o hub que actúe como intermediario. La Mi LED Smart Bulb permite ajustar su intensidad y es capaz de proporcionar hasta 16 millones de colores diferentes. El rango de temperaturas que ofrece esta bombilla smart va desde los 1.700 hasta los 6.500 Kelvin.",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Consumo eléctrico",
+        "value": "10W"
+      },
+      {
+        "key": "Vida útil",
+        "value": "25000 horas"
+      },
+      {
+        "key": "Conexión wifi",
+        "value": "2.4"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Mi Smart Sensor Set",
+    "img": "https://i01.appmifile.com/webfile/globalimg/Mandy/sensor.png?width=500&height=500",
+    "precio": 89990,
+    "descripcion": "Kit de domótica y alarma que servirá para tener nuestro hogar conectado gracias a un hub de control, además de poder asegurar puertas, ventanas o una habitación completa a través de los diferentes sensores que incluye. Incluyesensores de movimiento, de apertura de puertas y ventanas, además de ser compatible con el resto de dispositivos de Xiaomi para crear un hogar inteligente.",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Vida útil",
+        "value": "25000 horas"
+      },
+      {
+        "key": "Conexión wifi",
+        "value": "2.4"
+      },
+      {
+        "key": "ZigBee",
+        "value": "Sí"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Mi LED Desk Lamp",
+    "img": "https://i01.appmifile.com/webfile/globalimg/Joy/800/pms_1464071511.37197399.jpg?width=500&height=500",
+    "precio": 29990,
+    "descripcion": "Parpadeo invisible, regulación continua del brillo y de la temperatura del color, cuatro niveles de atenuacióny diseño sencillo para una larga vida útil.",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Duración batería",
+        "value": "2 años"
+      },
+      {
+        "key": "Conexión wifi",
+        "value": "2.4"
+      },
+      {
+        "key": "Consumo eléctrico",
+        "value": "6W"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Mi Electric Toothbrush",
+    "img": "https://www.opirata.com/images/xcepillo-xiaomi-mi-electric-1.jpg.pagespeed.ic.9w3MgsJ-_c.jpg",
+    "precio": 29990,
+    "descripcion": "Motor ultrasónico de alta eficiencia, cabezal libre de metales y multitud de modos adaptables de cepillado",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Color",
+        "value": "Blanco"
+      },
+      {
+        "key": "Consumo eléctrico",
+        "value": "2W"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Mi Motion-Activated Night Light",
+    "img": "https://informaticatop.com/6022-large_default/xiaomi-mi-motion-activated-night-light-sensor-de-luz-blanco.jpg",
+    "precio": 10990,
+    "descripcion": "Sensor de luz + detección por infrarrojos, energía eficiente, dos ajustes de brillo, puede ser instalada o colgada",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Consumo eléctrico",
+        "value": "0.25W"
+      },
+      {
+        "key": "Requiere batería",
+        "value": "Sí"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Mi Body Composition Scale",
+    "img": "https://img.pccomponentes.com/articles/15/156969/e1.jpg",
+    "precio": 34990,
+    "descripcion": "Además del peso corporal, Mi Body Composition Scale proporciona estadísticas de la composición corporal para una imagen realista de tu salud y forma física.",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Bluetooth",
+        "value": "4.0"
+      },
+      {
+        "key": "Requiere batería",
+        "value": "Sí"
+      },
+      {
+        "key": "Batería",
+        "value": "4x AAA"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Mi Air Purifier 2",
+    "img": "https://i01.appmifile.com/a1/T1zBYgBCWv1RXrhCrK.jpg?width=500&height=500",
+    "precio": 120990,
+    "descripcion": "Es muy compacto y continúa con el diseño clásico estilo torre que brinda una vía aérea ideal para purificar el entorno. Es que, de esta manera, se utiliza eficientemente la estructura del cuerpo del filtro. Además, la forma de torre permite una capacidad de purificación más potente.",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Wifi",
+        "value": "2.4"
+      },
+      {
+        "key": "Consumo eléctrico",
+        "value": "1.5W - 30W"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Mi Water Purifier",
+    "img": "https://i01.appmifile.com/webfile/globalimg/en/cms/711001BE-C73C-DE51-3992-BA516F579863.jpg?width=500&height=500",
+    "precio": 329990,
+    "descripcion": "Utiliza una tecnología de purificación por ósmosis inversa, haciendo que el caudal aumente, y dando como resultado que el volumen de agua pueda alcanzar hasta los 1.500 litros.",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Cantidad de agua filtrada",
+        "value": "400 galones"
+      },
+      {
+        "key": "Cantidad de filtros",
+        "value": "3"
+      },
+      {
+        "key": "Tipo de filtración",
+        "value": "Bacterias, materia orgánica, metales pesados"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Mi Pocket Speaker 2",
+    "img": "https://i01.appmifile.com/webfile/globalimg/Iris/MiPocketSpeaker2Black.png?width=500&height=500",
+    "precio": 25990,
+    "descripcion": "Diseño minimalista, altavoces profesionales Tymphany y 7 horas de reproducción de música",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Bluetooth",
+        "value": "4.1"
+      },
+      {
+        "key": "Duración de batería",
+        "value": "7 horas"
+      },
+      {
+        "key": "Potencia",
+        "value": "5W"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Mi Smart water Kettle",
+    "img": "https://www.powerplanetonline.com/cdnassets/xiaomi_electric_water_kettle_hervidor_electrico_01_l.jpg",
+    "precio": 34990,
+    "descripcion": "Calentador de agua inteligente con capidad de 1.5 litros y 12 horas de tiempo de control de temperatura. Se apaga automáticamente una vez que el agua empieza a hervir. La temperatura del agua se puede controlar a distancia a través de la aplicación MiHome de Xiaomi.",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Capacidad",
+        "value": "1.5 L"
+      },
+      {
+        "key": "Duración de batería",
+        "value": "7 horas"
+      },
+      {
+        "key": "Voltaje",
+        "value": "220V"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Mijia Internet Washing and Drying Machine",
+    "img": "https://omicrono.elespanol.com/wp-content/uploads/2018/12/lavadora-xiaomi-4.jpg",
+    "precio": 349990,
+    "descripcion": "Lavadora de carga frontal equipada con 21 programadas de lavado, con capacidad para lavar 10 kilogramos o 6 kilogramos para el secado.",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Capacidad",
+        "value": "10 Kg"
+      },
+      {
+        "key": "Funciones",
+        "value": "Lavado y secado"
+      },
+      {
+        "key": "Consumo eléctrico",
+        "value": "1800W"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "Xiaomi Mijia Honeywell alarma de incendios y detector de humo",
+    "img": "https://ae01.alicdn.com/kf/HTB1MyUrobSYBuNjSspiq6xNzpXa4/Xiaomi-Mijia-Honeywell-alarma-de-incendios-Sensor-de-humo-Detector-de-Gas-trabajo-con-puerta-de.jpg",
+    "precio": 79990,
+    "descripcion": "Alarma de sonido y luz en presencia de incendio o detección de humo",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Duración batería",
+        "value": "1 año"
+      },
+      {
+        "key": "ZigBee",
+        "value": "Sí"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "Xiaomi Mijia espejo de maquillaje",
+    "img": "https://ae01.alicdn.com/kf/HTB1hdiIbfc3T1VjSZLeq6zZsVXaI/Original-xiaomi-Mijia-inteligente-port-til-espejo-de-maquillaje-de-escritorio-led-Luz-Port-til-plegable.jpg",
+    "precio": 12990,
+    "descripcion": "Espejo táctil, control sensible LED luz natural,relleno ángulo ajustable brillo, larga duración de la batería",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "Intensidad",
+        "value": "2"
+      },
+      {
+        "key": "Material",
+        "value": "Vidrio"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "Xiaomi Mijia sensor inteligente",
+    "img": "https://ae01.alicdn.com/kf/HTB1fmh.LpXXXXXbapXXq6xXFXXXu/2019-Xiaomi-mijia-de-temperatura-y-humedad-Sensor-inteligente-de-medio-ambiente-de-control-de-Sensor.jpg",
+    "precio": 12990,
+    "descripcion": " Puede detectar en tiempo real la temperatura y la humedad, se activará automáticamente si los rangos son anormales",
+    "payback": 18,
+    "caracteristicas": [
+      {
+        "key": "ZigBee",
+        "value": "Sí"
+      },
+      {
+        "key": "Requiere batería",
+        "value": "Sí"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+.component {
+  min-width: 250px;
+  max-width: 350px;
+  margin: 20px 0;
+  width: 25%;
+  padding: 15px;
+  border-right-style: solid;
+  border-color: darkgrey;
+  border-width: 1px;
+  box-shadow: 10px 10px 5px lightgray;
+  border-radius: 10px;
+}
+
+.component > h4 {
+  text-align: center;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}

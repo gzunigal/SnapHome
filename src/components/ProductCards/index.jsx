@@ -4,36 +4,24 @@ import ProductCard from "./ProductCard";
 import styles from "./index.module.css";
 import ConfirmationModal from "components/ConfirmationModal";
 
-const ProductCards = () => {
+const ProductCards = ({ products }) => {
   const [modal, setModal] = useState({ price: 0, isOpen: false });
 
   const toggleModal = () => {
     setModal({ ...modal, isOpen: !modal.isOpen });
   };
-  const openModal = value => {
-    setModal({ price: value, isOpen: true });
+  const openModal = product => {
+    setModal({ product, isOpen: true });
   };
 
   return (
     <div className={styles.container}>
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
-      <ProductCard price={450000} onClickNew={openModal} />
+      {products.map(product => (
+        <ProductCard product={product} onClickNew={openModal} />
+      ))}
       <ConfirmationModal
         isOpen={modal.isOpen}
-        price={modal.price}
+        product={modal.product}
         toggle={toggleModal}
       />
     </div>
