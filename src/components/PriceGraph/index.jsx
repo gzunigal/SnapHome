@@ -65,10 +65,7 @@ class CustomizedMonthTick extends PureComponent {
     );
   }
 }
-
-export default class PriceGraph extends PureComponent {
-  static jsfiddleUrl = "https://jsfiddle.net/alidingling/5br7g9d6/";
-
+class PriceGraph extends PureComponent {
   getMonthAt(monthsInAdvance) {
     const months = [
       "Enero",
@@ -88,63 +85,14 @@ export default class PriceGraph extends PureComponent {
     return {
       name: months[month],
       Valor: calculatePriceAt({
-        price: this.props.price,
-        ROI: 18,
-        atMonth: 0
+        price: this.props.product.precio,
+        ROI: this.props.product.payback,
+        atMonth: monthsInAdvance
       })
     };
   }
 
-  data = [
-    {
-      name: "Junio",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 0 })
-    },
-    {
-      name: "Julio",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 1 })
-    },
-    {
-      name: "Agosto",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 2 })
-    },
-    {
-      name: "Septiembre",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 3 })
-    },
-    {
-      name: "Octubre",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 4 })
-    },
-    {
-      name: "Noviembre",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 5 })
-    },
-    {
-      name: "Diciembre",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 6 })
-    },
-    {
-      name: "Enero",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 7 })
-    },
-    {
-      name: "Febrero",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 8 })
-    },
-    {
-      name: "Marzo",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 9 })
-    },
-    {
-      name: "Abril",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 10 })
-    },
-    {
-      name: "Mayo",
-      Valor: calculatePriceAt({ price: this.props.price, ROI: 18, atMonth: 11 })
-    }
-  ];
+  data = [...Array(12).keys()].map(i => this.getMonthAt(i));
 
   render() {
     return (
@@ -173,3 +121,5 @@ export default class PriceGraph extends PureComponent {
     );
   }
 }
+
+export default PriceGraph;

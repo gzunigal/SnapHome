@@ -4,12 +4,20 @@
     "nombre": "Mi Home Security Camera 360° 1080P",
     "img": "https://i01.appmifile.com/webfile/globalimg/Mandy/1080P-800.jpg?width=500&height=500",
     "precio": 36990,
-    "descripcion": "asdad",
+    "descripcion": "La Mi Home Security Camera 360° está equipada con motores duales, permitiendo al dispositivo rotar hacia arriba, abajo, izquierda y derecha sin ninguna restricción. Con un ángulo de visión horizontal de 360° y vertical de 115°, se consigue una visión panorámica eliminando los puntos muertos.",
     "payback": 18,
     "caracteristicas": [
       {
+        "key": "Resolución",
+        "value": "1080p"
+      },
+      {
+        "key": "Conexión wifi",
+        "value": "2.4"
+      },
+      {
         "key": "Peso",
-        "value": "239g"
+        "value": "253g"
       }
     ]
   },
@@ -62,7 +70,7 @@
     "nombre": "Mi LED Desk Lamp",
     "img": "https://i01.appmifile.com/webfile/globalimg/Joy/800/pms_1464071511.37197399.jpg?width=500&height=500",
     "precio": 29990,
-    "descripcion": "Parpadeo invisible, regulación continua del brillo y de la temperatura del color, cuatro niveles de atenuacióny diseño sencillo para una larga vida útil.",
+    "descripcion": "Parpadeo invisible, regulación continua del brillo y de la temperatura del color, cuatro niveles de atenuacióny diseño sencillo para una larga vida útil. La luz natural es un don de la naturaleza para nosotros, pero tiene limitaciones que no se pueden controlar. Las personas desean tener un par de ojos nocturnos que les permitan ver en las profundidades ocultas de la noche. Por ello, exploramos las maneras de lograr que la luz artificial se asemeje más a la luz natural y sea controlable por las personas, dando un nuevo significado a la lámpara de escritorio tradicional.",
     "payback": 18,
     "caracteristicas": [
       {
@@ -84,7 +92,7 @@
     "nombre": "Mi Electric Toothbrush",
     "img": "https://www.opirata.com/images/xcepillo-xiaomi-mi-electric-1.jpg.pagespeed.ic.9w3MgsJ-_c.jpg",
     "precio": 29990,
-    "descripcion": "Motor ultrasónico de alta eficiencia, cabezal libre de metales y multitud de modos adaptables de cepillado",
+    "descripcion": "Un buen cepillo eléctrico no solo tiene una vibración de alta frecuencia, también una potencia excepcional. El motor sónico de levitación magnética y alta eficiencia desarrollado por expertos alemanes y japoneses vibra más de 31,000 veces por minuto y tiene una rotación de más de 230gf.cm. Esto significa que la energía no solo se encuentra concentrada en las vibraciones de alta frecuencia, si no que también se transfieren de forma más eficiente y directa al cabezal. El cepillo penetra completamente entre los huecos de tus dientes, eliminando la placa y consiguiendo una limpieza más profunda que la de un cepillo manual por sí solo.",
     "payback": 18,
     "caracteristicas": [
       {
@@ -102,7 +110,7 @@
     "nombre": "Mi Motion-Activated Night Light",
     "img": "https://informaticatop.com/6022-large_default/xiaomi-mi-motion-activated-night-light-sensor-de-luz-blanco.jpg",
     "precio": 10990,
-    "descripcion": "Sensor de luz + detección por infrarrojos, energía eficiente, dos ajustes de brillo, puede ser instalada o colgada",
+    "descripcion": "Al entrar en la habitación, la extraordinaria sensibilidad detecta cada uno de tus movimientos. Área de detección de 120° y de 5-7 metros de rango. Usando un avanzado sensor de luz, y tecnología de detección de movimiento por infrarrojos, se activará automáticamente durante la noche capturando todos tus movimientos incluso en la oscuridad. La luz se apagará automáticamente 15 segundos después de detectar el movimiento. Un función especial evita la interferencia de infrarrojos por lo que allá donde vayas, la luz permanecerá contigo.",
     "payback": 18,
     "caracteristicas": [
       {
@@ -110,8 +118,12 @@
         "value": "0.25W"
       },
       {
+        "key": "Temperatura de color",
+        "value": "2700 K"
+      },
+      {
         "key": "Requiere batería",
-        "value": "Sí"
+        "value": "3 AA"
       }
     ]
   },
@@ -120,7 +132,7 @@
     "nombre": "Mi Body Composition Scale",
     "img": "https://img.pccomponentes.com/articles/15/156969/e1.jpg",
     "precio": 34990,
-    "descripcion": "Además del peso corporal, Mi Body Composition Scale proporciona estadísticas de la composición corporal para una imagen realista de tu salud y forma física.",
+    "descripcion": "Conoce mejor tu cuerpo con la báscula Mi Body Composition que proporciona datos precisos gracias a una serie de complejos algoritmos y avanzado Análisis de Impedancia Bioeléctrica (BIA). Toma las medidas basadas en datos para cumplir con tus objetivos. Mi Body Composition Scale no sólo diferencia adultos y niños, sino que también identifica a cada miembro familiar, pudiendo almacenar hasta 16 perfiles. Además, gracias a tu tecnología Bluetooth 4.0 de bajo consumo, la báscula puede funcionar hasta 8 meses con sólo 4 pilas normales AAA (incluidas).",
     "payback": 18,
     "caracteristicas": [
       {
@@ -150,6 +162,10 @@
         "value": "2.4"
       },
       {
+        "key": "Duración del filtro",
+        "value": "145 días"
+      },
+      {
         "key": "Consumo eléctrico",
         "value": "1.5W - 30W"
       }
@@ -160,8 +176,8 @@
     "nombre": "Mi Water Purifier",
     "img": "https://i01.appmifile.com/webfile/globalimg/en/cms/711001BE-C73C-DE51-3992-BA516F579863.jpg?width=500&height=500",
     "precio": 329990,
-    "descripcion": "Utiliza una tecnología de purificación por ósmosis inversa, haciendo que el caudal aumente, y dando como resultado que el volumen de agua pueda alcanzar hasta los 1.500 litros.",
-    "payback": 18,
+    "descripcion": "Solo los mejores materiales filtrantes pueden purificar el agua cualitativamente. Elegimos a los mejores proveedores mundiales de materia prima para nuestros filtros. Con su forma compacta y su diseño sofisticado, el purificador de agua Mi 2 se puede colocar en cualquier lugar que sea conveniente para su uso. Ahorrarás mucho espacio colocando el purificador de agua debajo del fregadero o en el armario de la cocina. Podrá instalar un grifo separado para agua limpia sin sobrecargar el diseño general de la cocina.",
+    "payback": 24,
     "caracteristicas": [
       {
         "key": "Cantidad de agua filtrada",
@@ -182,7 +198,7 @@
     "nombre": "Mi Pocket Speaker 2",
     "img": "https://i01.appmifile.com/webfile/globalimg/Iris/MiPocketSpeaker2Black.png?width=500&height=500",
     "precio": 25990,
-    "descripcion": "Diseño minimalista, altavoces profesionales Tymphany y 7 horas de reproducción de música",
+    "descripcion": "Altavoz superior de aluminio bañado en óxido anonizado para una apariencia y sensación ideal. La sección inferior del altavoz está fabricada con PC + ABS e incorpora LED para indicar su estado.En colaboración con la aclamada marca danesa Tymphany, hemos implementado un diseño en red de tela con el fin de preservar un sonido claro y perfectos bajos y agudos.",
     "payback": 18,
     "caracteristicas": [
       {
@@ -204,7 +220,7 @@
     "nombre": "Mi Smart water Kettle",
     "img": "https://www.powerplanetonline.com/cdnassets/xiaomi_electric_water_kettle_hervidor_electrico_01_l.jpg",
     "precio": 34990,
-    "descripcion": "Calentador de agua inteligente con capidad de 1.5 litros y 12 horas de tiempo de control de temperatura. Se apaga automáticamente una vez que el agua empieza a hervir. La temperatura del agua se puede controlar a distancia a través de la aplicación MiHome de Xiaomi.",
+    "descripcion": "El Hervidor Eléctrico Smart de Xiaomi es un calentador de agua inteligente con capidad de 1.5 litros y 12 horas de tiempo de control de temperatura. Se apaga automáticamente una vez que el agua empieza a hervir. La temperatura del agua se puede controlar a distancia a través de la aplicación MiHome de Xiaomi, todo al alcance de tu mano! Principales características: Triple protección de seguridad: evita descargas eléctricas, no hay fugas eléctricas y apagado automático. El tiempo de control de la temperatura constante puede ser de hasta 12 horas. Acero inoxidable de doble capa interior. El diseño de aislamiento térmico da una protección más segura. Base de poder giratoria de 360 grados proporciona el uso duradero y comodidad.",
     "payback": 18,
     "caracteristicas": [
       {
@@ -216,8 +232,8 @@
         "value": "7 horas"
       },
       {
-        "key": "Voltaje",
-        "value": "220V"
+        "key": "Consumo eléctrico",
+        "value": "1800W"
       }
     ]
   },
@@ -226,8 +242,8 @@
     "nombre": "Mijia Internet Washing and Drying Machine",
     "img": "https://omicrono.elespanol.com/wp-content/uploads/2018/12/lavadora-xiaomi-4.jpg",
     "precio": 349990,
-    "descripcion": "Lavadora de carga frontal equipada con 21 programadas de lavado, con capacidad para lavar 10 kilogramos o 6 kilogramos para el secado.",
-    "payback": 18,
+    "descripcion": "Mijia Internet Washing and Drying Machine es una lavadora de carga frontal con capacidad para lavar 10 kilos o 6 kilos si se trata de la función de secado. Además ofrece hasta 21 programadas de lavado para buscar el que más se adapte a nuestras necesidades. La información que ofrecen hace referencia a un motor de imanes permanentes (BLDC) de frecuencia variable que llega hasta las 1.400 RPM. Según el fabricante, la Mijia Internet Washing and Drying Machine puede completar un ciclo de lavado y secado rápido en una hora y esto es posible gracias al uso de una serie de sensores que permiten determinar la cantidad de ropa a lavar para ajustar el ciclo de lavado.",
+    "payback": 24,
     "caracteristicas": [
       {
         "key": "Capacidad",
@@ -248,7 +264,7 @@
     "nombre": "Xiaomi Mijia Honeywell alarma de incendios y detector de humo",
     "img": "https://ae01.alicdn.com/kf/HTB1MyUrobSYBuNjSspiq6xNzpXa4/Xiaomi-Mijia-Honeywell-alarma-de-incendios-Sensor-de-humo-Detector-de-Gas-trabajo-con-puerta-de.jpg",
     "precio": 79990,
-    "descripcion": "Alarma de sonido y luz en presencia de incendio o detección de humo",
+    "descripcion": "Es demasiado tarde cuando su casa está en llamas. Por lo tanto, conocer la emergencia a tiempo es crítico. Xiaomi cooperó con Honeywell, una empresa especializada en alarmas contra incendios, y diseñó este nuevo detector de humo. Tiene una nariz afilada, es decir, un sensor de alta precisión para detectar la densidad del humo, y emite alarmas inmediatamente cuando se va a incendiar. Vinculado a WiFi, puede notificarle la emergencia donde sea que se encuentre.",
     "payback": 18,
     "caracteristicas": [
       {
@@ -263,19 +279,19 @@
   },
   {
     "id": 14,
-    "nombre": "Xiaomi Mijia espejo de maquillaje",
-    "img": "https://ae01.alicdn.com/kf/HTB1hdiIbfc3T1VjSZLeq6zZsVXaI/Original-xiaomi-Mijia-inteligente-port-til-espejo-de-maquillaje-de-escritorio-led-Luz-Port-til-plegable.jpg",
-    "precio": 12990,
-    "descripcion": "Espejo táctil, control sensible LED luz natural,relleno ángulo ajustable brillo, larga duración de la batería",
-    "payback": 18,
+    "nombre": "Viomi 21Face Smart Refrigerator",
+    "img": "https://www.gizmochina.com/wp-content/uploads/2018/07/VIOMI-Smart-refrigerator.jpg",
+    "precio": 769999,
+    "descripcion": "21Face que es como Viomi ha bautizado esta nevera dispone de 450L de capacidad donde podremos almacenar 177L de congelado y 273L de productos frescos. Esta nevera dispone de Wifi y aplicación móvil. En la parte frontal encontramos una pantalla de 21″ que permiten la visualización de contenido multimedia, correos, lista de la compra, envio desde el supermercado. Desde la aplicación móvil podremos controlar la temperatura y programar estados y temperatura de la nevera y del congelador. Esta nevera utiliza un motor ultra silencioso de 38 dB que permite el movimiento en 360º del aire frío. Esto permite que todos los alimentos se encuentren a la misma temperatura. La IA también está disponible en este refrigerador que que nos permite saber y preguntar sobre el estado de la nevera o realizar preguntas sobre dudas que tengamos.",
+    "payback": 30,
     "caracteristicas": [
       {
-        "key": "Intensidad",
-        "value": "2"
+        "key": "Duración batería",
+        "value": "1 año"
       },
       {
-        "key": "Material",
-        "value": "Vidrio"
+        "key": "ZigBee",
+        "value": "Sí"
       }
     ]
   },
@@ -284,7 +300,7 @@
     "nombre": "Xiaomi Mijia sensor inteligente",
     "img": "https://ae01.alicdn.com/kf/HTB1fmh.LpXXXXXbapXXq6xXFXXXu/2019-Xiaomi-mijia-de-temperatura-y-humedad-Sensor-inteligente-de-medio-ambiente-de-control-de-Sensor.jpg",
     "precio": 12990,
-    "descripcion": " Puede detectar en tiempo real la temperatura y la humedad, se activará automáticamente si los rangos son anormales",
+    "descripcion": "Con este sensor puede controlar los datos de su hogar y oficina desde su teléfono. También puede vincularse con otros productos xiaomi para que funcionen cuando alcanzan cierta temperatura o humedad. Haz que tu teléfono sea más sensible y haz que tu hogar sea más inteligente.",
     "payback": 18,
     "caracteristicas": [
       {

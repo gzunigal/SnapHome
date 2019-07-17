@@ -5,7 +5,7 @@ import { calculatePriceAt, formatPrice } from "utils/price";
 import styles from "./index.module.css";
 import image from "assets/lavadora.jpg";
 
-const ProductCard = ({ product, onClickNew }) => {
+const ProductCard = ({ product, onClickNew, adquirido }) => {
   const priceNew = calculatePriceAt({
     price: product.precio,
     ROI: product.payback
@@ -19,11 +19,13 @@ const ProductCard = ({ product, onClickNew }) => {
   return (
     <div className={styles.card}>
       <Card className={styles.card_top}>
-        <Row>
-          <Col className={styles.foto}>
-            <img src={product.img} alt="Referencia" />
-          </Col>
-        </Row>
+        <a href={`/producto/${product.id}`}>
+          <Row>
+            <Col className={styles.foto}>
+              <img src={product.img} alt="Referencia" />
+            </Col>
+          </Row>
+        </a>
       </Card>
       <Row>
         <ButtonGroup className={`col col-md-12`}>
@@ -31,19 +33,29 @@ const ProductCard = ({ product, onClickNew }) => {
             className={`col col-md-6 ${styles.button} ${styles.normal}`}
             color="success"
             onClick={() => {
-              onClickNew(product);
+              !adquirido && onClickNew(product);
             }}
           >
-            <div className={styles.pricename}>NUEVO</div>
-            <div className={styles.price}>{formatPrice(priceNew)}</div>
+            {adquirido && <div className={styles.text}>Actualizar</div>}
+            {!adquirido && (
+              <span>
+                <div className={styles.pricename}>NUEVO</div>
+                <div className={styles.price}>{formatPrice(priceNew)}</div>
+              </span>
+            )}
           </Button>
           <Button
             className={`col col-md-6 ${styles.button} ${styles.desde}`}
-            color="info"
+            color={adquirido ? "warning" : "info"}
             href={`/producto/${product.id}`}
           >
-            <div className={styles.pricename}>DESDE</div>
-            <div className={styles.price}>{formatPrice(priceFrom)}</div>
+            {adquirido && <div className={styles.text}>Reportar Falla</div>}
+            {!adquirido && (
+              <span>
+                <div className={styles.pricename}>DESDE</div>
+                <div className={styles.price}>{formatPrice(priceFrom)}</div>
+              </span>
+            )}
           </Button>
         </ButtonGroup>
       </Row>

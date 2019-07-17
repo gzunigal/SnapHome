@@ -1,0 +1,12 @@
+.card {
+  border-radius: 10px;
+  background-color: #fafafa;
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.text_center {
+  display: flex;
+  justify-content: center;
+}

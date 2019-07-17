@@ -27,7 +27,7 @@ class ConfirmationModal extends React.Component {
                 </div>
               </div>
               <div className="col-12">
-                <PriceGraph price={product && product.precio} />
+                <PriceGraph product={product} />
               </div>
             </div>
           </ModalBody>

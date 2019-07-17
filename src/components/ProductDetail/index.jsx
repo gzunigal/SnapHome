@@ -4,6 +4,7 @@ import { calculatePriceAt, formatPrice } from "utils/price";
 import ConfirmationModal from "components/ConfirmationModal";
 
 import styles from "./index.module.css";
+import UsedProducts from "./UsedProducts";
 
 const ProductDetail = ({ product }) => {
   const priceNew = calculatePriceAt({
@@ -66,7 +67,7 @@ const ProductDetail = ({ product }) => {
               <Button
                 className={`col col-md-6 ${styles.button} ${styles.desde}`}
                 color="info"
-                href={`/producto/${product.id}`}
+                href="#otros"
               >
                 <div className={styles.pricename}>DESDE</div>
                 <div className={styles.price}>{formatPrice(priceFrom)}</div>
@@ -90,7 +91,12 @@ const ProductDetail = ({ product }) => {
       <hr className="col-8 offset-2" />
       <div className="row">
         <div className={`col ${styles.centerContent}`}>
-          <h3>Otras Opciones</h3>
+          <h3 id="otros">Otras Opciones</h3>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-10 offset-1">
+          <UsedProducts product={product} />
         </div>
       </div>
 
